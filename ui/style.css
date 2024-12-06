@@ -1,0 +1,29 @@
+
+app-style {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; /* Background color of the container */
+}
+
+button {
+    background-color: #4CAF50; /* Button color */
+    color: white; /* Text color inside the button */
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker button color on hover */
+}
